@@ -87,3 +87,7 @@ footer {
     padding: 10px;
     background: lightblue;
 }
+
+.button {
+    border-radius: 10px;
+}
