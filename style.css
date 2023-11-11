@@ -1,14 +1,16 @@
 body {
     font-family: 'Arial', sans-serif;
-    */dunklere Farbe für besseren Kontrast
+   
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #3498db;
-    color: #fff;
+    background-color: #003557;
+     /*dunklere Farbe für besseren Kontrast*/
+     color: #ddd;
     text-align: center;
+    font-size: x-large;
     padding: 1em 0;
 }
 
