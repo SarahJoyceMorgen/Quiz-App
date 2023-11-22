@@ -3,6 +3,7 @@ body {
    background-color: aliceblue;
     margin: 0;
     padding: 0;
+
 }
 
 header {
@@ -96,9 +97,7 @@ footer {
 
 /* html Form */
 
-form {
-    margin-top: 20px;
-}
+
 
 label {
     display: block;
@@ -110,6 +109,10 @@ textarea, input[type="text"] {
     padding: 8px;
     margin-bottom: 10px;
     box-sizing: border-box;
+    max-width: 40%;
+
+    
+    
 }
 
 input[type="submit"] {
