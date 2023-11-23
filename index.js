@@ -22,15 +22,18 @@ const bookmark = document.querySelectorAll(".bookmark").forEach((bookmarkElement
 
 
 
-function toggleBookmark() {
 
-    const bookmark = this;
+function addTag() {
+    
 
-    const isBookmarked = bookmark.classList.contains("bookmarked");
+    const tagValue = document.getElementById('tagInput').value;
 
-    if (isBookmarked) {
-        bookmark.classList.remove("bookmarked");
-    } else {
-        bookmark.classList.add("bookmarked");
-    }
-} 
+    const questionInput = document.getElementById('questionInput');
+    questionInput.value += ' #' + tagValue;
+
+    document.getElementById('tagInput').value = '';
+}
+
+const button = questionElement.querySelector('.add__button');
+    button.onclick = () => {
+}
