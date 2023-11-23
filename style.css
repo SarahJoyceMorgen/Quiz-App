@@ -1,6 +1,6 @@
 body {
     font-family: 'Arial', sans-serif;
-   background-color: aliceblue;
+    background-color: aliceblue;
     margin: 0;
     padding: 0;
 
@@ -8,8 +8,8 @@ body {
 
 header {
     background-color: #003557;
-     /*dunklere Farbe für besseren Kontrast*/
-     color: #f5f5f5;
+    /*dunklere Farbe für besseren Kontrast*/
+    color: #f5f5f5;
     text-align: center;
     font-size: x-large;
     padding: 1em 0;
@@ -23,6 +23,7 @@ main {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
+    margin-bottom: 200px;
 }
 
 
@@ -48,7 +49,7 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    display:flex;
+    display: flex;
     flex-direction: row;
 }
 
@@ -86,25 +87,27 @@ footer {
     border-radius: 10px;
 }
 
-.card details {
+/** Answer **/
+.card p.answer {
+    background-color: powderblue;
+    padding: 15px;
+    max-width: 300px;
     margin: auto;
-    width: 150px;
-    padding: 10px;
-    background: lightblue;
+    display: none;
 }
 
 .button {
     border-radius: 10px;
     margin: 20px;
     padding: 15px;
-    background-color:#003557 ;
-    color:#ddd;
+    background-color: #003557;
+    color: #ddd;
 }
 
 .navbar {
     text-decoration: none;
     border-radius: 10px;
-    margin: 20px;
+    margin: 10px;
     padding: 15px;
 
 }
@@ -118,15 +121,17 @@ label {
     margin-bottom: 5px;
 }
 
-textarea, input[type="text"] {
+textarea,
+input[type="text"] {
     width: 100%;
     padding: 8px;
     margin-bottom: 10px;
     box-sizing: border-box;
-    max-width: 40%;
+    max-width: 60%;
+    max-height: 20%;
 
-    
-    
+
+
 }
 
 input[type="submit"] {
@@ -139,7 +144,7 @@ input[type="submit"] {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    
+
 }
 
 
