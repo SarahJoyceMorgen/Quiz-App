@@ -7,17 +7,25 @@ document.querySelectorAll('.card').forEach((questionElement) => {
         const answerElement = questionElement.querySelector('.answer')
         const answerDisplay = answerElement.style.display;
 
-        if(answerDisplay === 'block') {
+        if (answerDisplay === 'block') {
             answerElement.style.display = 'none';
-        } else if(answerDisplay === "" || answerDisplay === 'none') {
+        } else if (answerDisplay === "" || answerDisplay === 'none') {
             answerElement.style.display = 'block'
         }
     }
 })
 
-const bookmark = document.querySelector(".bookmark");
+const bookmark = document.querySelectorAll(".bookmark").forEach((bookmarkElement) => {
+    bookmarkElement.onclick = toggleBookmark
+
+});
+
+
 
 function toggleBookmark() {
+
+    const bookmark = this;
+
     const isBookmarked = bookmark.classList.contains("bookmarked");
 
     if (isBookmarked) {
