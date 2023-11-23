@@ -1,4 +1,11 @@
 
+const button = document.querySelector(".button")
+object.onclick = function(){
+
+    if 
+};
+
+
 const bookmark = document.querySelector(".bookmark");
 
 function toggleBookmark() {
