@@ -27,6 +27,7 @@ function addTag() {
     
 
     const tagValue = document.getElementById('tagInput').value;
+    const tagValue = document.getElementById('tagInput').value;
 
     const questionInput = document.getElementById('questionInput');
     questionInput.value += ' #' + tagValue;
